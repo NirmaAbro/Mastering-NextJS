@@ -1,5 +1,12 @@
 import React from "react";
 
+export const metadata = {
+  title: {
+    absolute: 'all services files is here',
+  },
+}
+ 
+// Output: <title>About</title>
 export default function page() {
   return (
     <div>
